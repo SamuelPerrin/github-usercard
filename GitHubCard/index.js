@@ -91,10 +91,10 @@ function makeCard (obj) {
   cardInfo.appendChild(username)
   cardInfo.appendChild(location)
   cardInfo.appendChild(profile)
-  cardInfo.appendChild(link)
   cardInfo.appendChild(followers)
   cardInfo.appendChild(following)
   cardInfo.appendChild(bio)
+  profile.appendChild(link);
 
   return card
 }
